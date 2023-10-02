@@ -328,7 +328,162 @@ a{
     background-color: white;
     border-radius: 100px;
     margin-top: -4.5px;
-    
+}
+@media(max-width: 1005px) {
+    .alb-img{
+        margin-top: 10px;
+    }
+}
+@media(max-width: 835px) {
+    .sidebar{
+        width: 300px;
+    }
+    .box:nth-of-type(2){
+        height: 162px;
+    }
+}
+@media (max-width: 810px) {
+    .alb-icons{
+        margin-left: 4px
+    }
+    .h2{
+        margin-left: 5px;
+    }
+    .alb-img
+    {
+        margin-top: 8px;
+    }
+}
+@media (max-width: 780px) {
+    .sidebar{
+        width: 250px;
+    }
+    .box{
+        width: 200px;
+        margin-left: 2px;
+        padding: 12px 8px;
+    }
+    .nav{
+        height: 75px;
+    }
+    .box:nth-of-type(2){
+        height: 164px;
+    }
+    .lib-option a{
+        font-size: 13px;
+    }
+}
+@media (max-width: 745px) {
+    .player{
+        width: 300px;
+    }
+}
+@media (max-width: 733px) {
+    .player{
+        width: 250px;
+    }
+}
+@media (max-width: 700px) {
+    .player{
+        width: 200px;
+    }
+    .album{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 675px) {
+    .control-icons-4{
+        display: none;
+    }
+    .player{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 655px) {
+    .alb-icons{
+        display: none;
+    }
+    .sticky-nav-icons img:nth-of-type(1){
+        display: none;
+    }
+}
+@media(max-width: 615px){
+    .sidebar{
+        width: 215px;
+    }
+    .box{
+        width: 175px;
+    }
+    .lib-option a{
+        font-size: 10px;
+        margin-left: 2px;
+    }
+    i{
+        font-size: 14px;
+    }
+    .box:nth-of-type(1){
+        height: 140px;
+    }
+}
+@media(max-width: 510px){
+    .sidebar{
+        width: 175px;
+        font-size: 0.5px;
+    }
+    .lib-options .box{
+        width: 130px;
+        height: 130px;
+        font-size: 2px;
+    }
+    .lib-options .box-p2{
+        display: none;
+    }
+    .badge{
+        height: 35px;
+    }
+    .nav-option{
+        padding: 0 12px;
+        font-size: 4px;
+    }
+    .nav-option img{
+        height: 7.5px;
+        width: 7.5px;
+    }
+    .icons{
+        margin-bottom: 8px;
+    }
+}
+@media(max-width: 530px){
+    .badge:nth-of-type(2){
+        display: none;
+    }
+    .main-content{
+        font-size: 12px;
+    }
+}
+@media (max-width: 560px) {
+    .control-icons-1, .control-icons-2, .control-icons-3 {
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    .album {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+    .playback-bar{
+        margin-top: 2px;
+        padding-right: 30px;
+    }
+    .player-control-icons:nth-of-type(1){
+        display: none;
+    }
+    .player-control-icons:nth-of-type(5){
+        display: none;
+    }
+    .curr-time, .tot-time{
+        font-size: 10px;
+    }
 }
 /* The reason why margin-top is working in your CSS code but margin-bottom is not working is because the ::-webkit-slider-thumb pseudo-element represents the thumb (handle) of a slider input element in webkit-based browsers (such as Chrome and Safari).
 
