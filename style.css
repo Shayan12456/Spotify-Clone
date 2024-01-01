@@ -354,6 +354,14 @@ a{
         margin-top: 8px;
     }
 }
+@media (max-width: 800px) {
+    .card{
+        width: 120px;
+    } 
+    .card-container{
+        margin-left: 20px;
+    }
+}
 @media (max-width: 780px) {
     .sidebar{
         width: 250px;
@@ -378,6 +386,11 @@ a{
         width: 300px;
     }
 }
+@media (max-width: 752px) {
+    .card{
+        width: 100px;
+    }
+}
 @media (max-width: 733px) {
     .player{
         width: 250px;
@@ -398,6 +411,13 @@ a{
     .player{
         margin-left: 30px;
     }
+    .card-container{
+        margin-left: 0;
+    }
+    .card{
+        width: 100px;
+        font-size: 0.75rem;
+    }
 }
 @media (max-width: 655px) {
     .alb-icons{
@@ -405,6 +425,19 @@ a{
     }
     .sticky-nav-icons img:nth-of-type(1){
         display: none;
+    }
+    .card-container{
+        margin-left: -12px;
+    }
+}
+@media (max-width: 639px) {
+    .card{
+        width: 95px;
+    }
+}
+@media (max-width: 626px) {
+    .card{
+        width: 90px;
     }
 }
 @media(max-width: 615px){
@@ -423,6 +456,41 @@ a{
     }
     .box:nth-of-type(1){
         height: 140px;
+    }
+}
+@media (max-width: 585px) {
+    .card{
+        width: 85px;
+    }
+}
+@media (max-width: 570px) {
+    .card{
+        width: 80px;
+    }
+    .card-top{
+        height: 90px;
+    }
+}
+@media (max-width: 562px) {
+    .card{
+        padding: 8px;
+        margin: 12px;
+    }
+}
+@media (max-width: 533px) {
+    .card{
+       font-size: 0.01rem;
+       width: 78px;
+    }
+}
+@media (max-width: 528px) {
+    .card{
+        width: 75px;
+    }
+}
+@media (max-width: 520px) {
+    .card{
+        width: 70px;
     }
 }
 @media(max-width: 510px){
@@ -466,6 +534,12 @@ a{
         display: none;
     }
 }
+@media (max-width: 460px) {
+    .card{
+        padding: 4px;
+        margin: 4px;
+    }
+}
 @media (max-width: 450px) {
     .album {
         margin-left: 0;
@@ -483,6 +557,11 @@ a{
     }
     .curr-time, .tot-time{
         font-size: 10px;
+    }
+}
+@media (max-width: 420px) {
+    .card{
+        width: 65px;
     }
 }
 /* The reason why margin-top is working in your CSS code but margin-bottom is not working is because the ::-webkit-slider-thumb pseudo-element represents the thumb (handle) of a slider input element in webkit-based browsers (such as Chrome and Safari).
