@@ -561,7 +561,17 @@ a{
 }
 @media (max-width: 420px) {
     .card{
-        width: 65px;
+        width: 70px;
+        margin-right: 8px;
+    }
+    .sidebar{
+        width: 160px;
+    }
+    .box{
+        margin-left: -8px;
+    }
+    .main-content{
+        padding-left: 4;
     }
 }
 /* The reason why margin-top is working in your CSS code but margin-bottom is not working is because the ::-webkit-slider-thumb pseudo-element represents the thumb (handle) of a slider input element in webkit-based browsers (such as Chrome and Safari).
